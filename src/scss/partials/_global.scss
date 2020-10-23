@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    width: 1020px;
+    background-color: orange;
+}
+
+.menubar {
+    float: right;
+    padding-top: 25px;
+    width: 797px;
+    li {
+        display: inline-block;
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bold;
+        font-size: 11px;
+        padding: 7px;
+    }
+}
