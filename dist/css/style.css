@@ -69,18 +69,19 @@ a {
   margin: 0 auto;
   width: 1020px;
   background-color: orange;
+  max-width: 3840px;
 }
 
-nav .navbar {
+.navbar {
   float: right;
   width: 797px;
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 16px;
   padding-top: 22px;
-  color: white;
+  color: #f6f6f6;
 }
-nav .navbar li {
+.navbar li {
   display: inline-block;
   padding: 7px;
 }
