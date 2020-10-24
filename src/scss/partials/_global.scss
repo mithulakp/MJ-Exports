@@ -1,21 +1,27 @@
 @import './variables.scss';
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
 .container {
     margin: 0 auto;
-    width: 1020px;
-    background-color: orange;
-    max-width: 3840px;
+    max-width: 1157px;
+}
+
+.header {
+    background: linear-gradient(to right, #fd6859, #e84d6c);
 }
 
 .navbar {
     float: right;
-    width: 797px;
-    font-family: "DM Sans", sans-serif;
+    width: 924px;
     font-weight: bold;
     font-size: 16px;
-    padding-top: 22px;
+    letter-spacing: 1px;
+    padding-top: 18px;
     color: $primary-color;
     li {
         display: inline-block;
-        padding: 7px;
+        padding: 11px;
     }
 }
