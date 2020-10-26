@@ -1,0 +1,64 @@
+@import './variables.scss';
+.banner-title {
+    width: 465px;
+    font-size: 75px;
+    color: $primary-color;
+    padding-top: 120px;
+    font-weight: bold;
+    line-height: 66px;
+    letter-spacing: 2px;
+}
+
+.banner-content {
+    width: 432px;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 43px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.banner-btn {
+    background-color: $secondary-color;
+    width: 389px;
+    height: 87px;
+    border: none;
+    color: $primary-color;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 49px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+.mj-exports-banner {
+    float: right;
+    margin-top: -57px;
+    height: 658px;
+}
+
+.button-arrow {
+    color: $primary-color;
+    padding-left: 188px;
+    font-size: 20px;
+}
+
+.slider {
+    float: right;
+    width: 33%;
+    height: auto;
+    margin-top: -57px;
+    overflow: hidden;
+}
+
+.item {
+    height: 658px;
+    background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/*.slider-image {
+    height: auto;
+}*/

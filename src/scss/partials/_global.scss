@@ -1,6 +1,8 @@
 @import './variables.scss';
 body {
     font-family: "DM Sans", sans-serif;
+    background: linear-gradient(to bottom right, #ff6b57, #e74c6d, #ef5666);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -9,7 +11,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #fd6859, #e84d6c);
+    /* background: linear-gradient(to right, #ff6b57, #f9645c, #f8625e);*/
 }
 
 .navbar {
