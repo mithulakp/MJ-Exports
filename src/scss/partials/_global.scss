@@ -1,8 +1,6 @@
 @import './variables.scss';
 body {
     font-family: "DM Sans", sans-serif;
-    background: linear-gradient(to bottom right, #ff6b57, #e74c6d, #ef5666);
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -10,8 +8,8 @@ body {
     max-width: 1157px;
 }
 
-.header {
-    /* background: linear-gradient(to right, #ff6b57, #f9645c, #f8625e);*/
+.logo {
+    padding-top: 18px;
 }
 
 .navbar {
@@ -20,7 +18,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
-    padding-top: 18px;
+    padding-top: 36px;
     color: $primary-color;
     li {
         display: inline-block;
