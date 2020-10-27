@@ -1,10 +1,27 @@
 @import './variables.scss';
-.top-spacing {
-    padding-top: 89px;
+.global-vertical-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
-.bottom-spacing {
-    padding-bottom: 89px;
+.global-padding-top {
+    padding-top: 90px;
+}
+
+.global-padding-bottom {
+    padding-bottom: 90px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.blue-text {
+    color: $secondary-color;
 }
 
 .banner {
@@ -15,9 +32,11 @@
 
 .banner-title {
     width: 465px;
-    font-size: 75px;
-    color: $primary-color;
     padding-top: 167px;
+}
+
+.primary-heading {
+    font-size: 75px;
     font-weight: bold;
     line-height: 66px;
     letter-spacing: 2px;
@@ -25,19 +44,21 @@
 
 .banner-content {
     width: 469px;
-    color: $primary-color;
-    font-size: 18px;
-    font-weight: lighter;
     padding-top: 43px;
+}
+
+.introduction {
+    font-size: 18px;
     line-height: 22px;
+    font-weight: lighter;
 }
 
 .btn {
     width: 312px;
-    background-color: #10233d;
+    background-color: $secondary-color;
     height: 75px;
     border: none;
-    color: #f6f6f6;
+    color: $primary-color;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
@@ -55,7 +76,6 @@
 
 .button-arrow {
     width: 149px;
-    color: #f6f6f6;
     padding-left: 115px;
 }
 
@@ -79,69 +99,141 @@
 .mj-exports-content {
     background-image: url(../images/bg.png);
     background-repeat: repeat;
-    height: 1200px;
+    height: 1550px;
 }
 
-.inner-contents {
+.intro {
     width: 995px;
+    padding-left: 171px;
+}
+
+.intro-heading {
     font-size: 30px;
     font-weight: 100;
     line-height: 40px;
     color: $secondary-color;
-    text-align: center;
-    padding-left: 171px;
 }
 
 .icon-box {
-    background-color: white;
+    display: inline-block;
+    margin-left: 237px;
+    width: 10px;
+}
+
+.white-box {
     width: 156px;
     height: 140px;
     border-radius: 12px;
-    margin-left: 232px;
     box-shadow: 0px 1px 20px lightgrey;
-    display: inline-block;
-    &.icon-box2 {
-        margin-left: 91px;
-    }
-    &.icon-box3 {
-        margin-left: 91px;
-    }
+    background-color: white;
 }
 
 .icon {
     padding: 24px 0px 0px 35px;
 }
 
-.our-service {
-    width: 618px;
-    height: 500px;
-    background: linear-gradient(to bottom right, #ff6b57, #f55d61, #f1356c, #e74c6d);
-    margin-top: 200px;
-    color: $primary-color;
-}
-
 .icon-content {
-    display: grid;
-    grid-template-columns: 136px 147px 167px;
-    grid-gap: 110px;
-    padding: 28px 0px 0px 235px;
-    color: #10233d;
-    text-align: center;
+    width: 163px;
+    padding-top: 56px;
+    color: $secondary-color;
     font-size: 18px;
+    line-height: 22px;
 }
 
-.mj-exports-service {
-    color: white;
+.gradient-box {
+    width: 580px;
+    height: 470px;
+    background: linear-gradient(to bottom right, #ff6b57, #f55d61, #f1356c, #e74c6d);
+    margin-top: 160px;
+}
+
+.grad-content-padding {
+    padding-left: 88px;
+    padding-right: 91px;
+}
+
+.seconday-heading {
     font-size: 50px;
     font-weight: normal;
-    padding-left: 124px;
 }
 
-.service-content {
-    width: 495px;
-    padding-left: 123px;
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 26px;
-    padding-top: 45px;
+.grad-box-intro {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.product-images {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap: 164px;
+    padding-left: 5px;
+}
+
+.grad-text {
+    background: linear-gradient(to bottom right, #ff6b57, #fa655b, #f1356c, #e74c6d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.text-padding {
+    padding: 15px 73px 15px 41px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-gap: 72px;
+}
+
+.inner-banner {
+    position: absolute;
+    left: 0;
+}
+
+.inner-banner-content {
+    width: 976px;
+    height: 700px;
+    margin-top: -102px;
+    background-color: #fff;
+    float: right;
+    box-shadow: -2px -15px 67px #e1ebf2;
+}
+
+.pink-text {
+    color: $tertiary-color;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.grad-box-intro-modify {
+    width: 390px;
+}
+
+.white-box-padding {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.white-box-grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 60px;
+}
+
+.large-text {
+    font-size: 75px;
+}
+
+.grid-text-padding {
+    padding-top: 15px;
+}
+
+.primary-btn {
+    background-color: $tertiary-color;
+    width: 280px;
+}
+
+.primary-button-arrow {
+    width: 72px;
+    padding-left: 46px;
 }
