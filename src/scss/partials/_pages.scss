@@ -68,6 +68,29 @@
     cursor: pointer;
 }
 
+.primary-btn {
+    background-color: $tertiary-color;
+    width: 255px;
+    height: 65px;
+}
+
+.top-margin {
+    margin-top: 191px;
+}
+
+.primary-button-arrow {
+    width: 62px;
+    padding-left: 40px;
+}
+
+.secondary-btn {
+    width: 84px;
+    height: 26px;
+    background-color: transparent;
+    border: 1px solid #ed5368;
+    cursor: pointer;
+}
+
 .mj-exports-banner {
     float: right;
     margin-top: -57px;
@@ -111,7 +134,6 @@
     font-size: 30px;
     font-weight: 100;
     line-height: 40px;
-    color: $secondary-color;
 }
 
 .icon-box {
@@ -158,8 +180,8 @@
 }
 
 .grad-box-intro {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .product-images {
@@ -167,6 +189,14 @@
     grid-template-columns: 150px 150px;
     grid-column-gap: 164px;
     padding-left: 5px;
+}
+
+.product-padding {
+    padding-top: 21px;
+}
+
+.product-alignment {
+    margin-top: -261px;
 }
 
 .grad-text {
@@ -187,13 +217,14 @@
 
 .inner-banner {
     position: absolute;
-    left: 0;
+    margin-left: -388px;
 }
 
 .inner-banner-content {
     width: 976px;
-    height: 700px;
-    margin-top: -102px;
+    height: 710px;
+    margin-top: -112px;
+    margin-right: -375px;
     background-color: #fff;
     float: right;
     box-shadow: -2px -15px 67px #e1ebf2;
@@ -228,12 +259,43 @@
     padding-top: 15px;
 }
 
-.primary-btn {
-    background-color: $tertiary-color;
-    width: 280px;
+.features {
+    width: 100%;
+    background-color: #e1ebf2;
+    height: 635px;
 }
 
-.primary-button-arrow {
-    width: 72px;
-    padding-left: 46px;
+.view-align {
+    float: right;
+    margin-top: -25px;
+}
+
+.global-grid {
+    display: grid;
+    grid-template-columns: 345px 345px 345px;
+    grid-column-gap: 60px;
+    grid-row-gap: 100px;
+    padding-top: 50px;
+}
+
+.product-text {
+    width: 375px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 32px;
+    padding: 25px 0px 15px 0px;
+}
+
+.right-arrow {
+    margin: -37px 0px 0px 121px;
+}
+
+.pink-arrow {
+    margin: -37px 0px 0px 84px;
+}
+
+.hl {
+    border-bottom: 1px solid #bfc1c9;
+    width: 440px;
+    margin-top: -140px;
 }
