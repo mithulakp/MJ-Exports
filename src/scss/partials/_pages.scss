@@ -75,7 +75,7 @@
 }
 
 .top-margin {
-    margin-top: 191px;
+    margin-top: -12px;
 }
 
 .primary-button-arrow {
@@ -83,12 +83,9 @@
     padding-left: 40px;
 }
 
-.secondary-btn {
-    width: 84px;
-    height: 26px;
-    background-color: transparent;
+.tag {
     border: 1px solid #ed5368;
-    cursor: pointer;
+    padding: 3px 7px;
 }
 
 .mj-exports-banner {
@@ -119,15 +116,13 @@
     height: auto;
 }
 
-.mj-exports-content {
-    background-image: url(../images/bg.png);
+.mj-exports-intro {
     background-repeat: repeat;
-    height: 1550px;
 }
 
 .intro {
-    width: 995px;
-    padding-left: 171px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .intro-heading {
@@ -136,10 +131,13 @@
     line-height: 40px;
 }
 
+.icons {
+    padding-left: 150px;
+}
+
 .icon-box {
     display: inline-block;
-    margin-left: 237px;
-    width: 10px;
+    margin-left: 97px;
 }
 
 .white-box {
@@ -163,7 +161,7 @@
 }
 
 .gradient-box {
-    width: 580px;
+    width: 557px;
     height: 470px;
     background: linear-gradient(to bottom right, #ff6b57, #f55d61, #f1356c, #e74c6d);
     margin-top: 160px;
@@ -188,7 +186,6 @@
     display: grid;
     grid-template-columns: 150px 150px;
     grid-column-gap: 164px;
-    padding-left: 5px;
 }
 
 .product-padding {
@@ -211,22 +208,27 @@
 
 .icon-grid {
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-gap: 72px;
+    grid-template-columns: 150px 150px 150px 100px;
+    grid-gap: 70px;
+}
+
+.numbers {
+    width: 100%;
+    height: 688px;
 }
 
 .inner-banner {
-    position: absolute;
-    margin-left: -388px;
+    right: 33%;
+    position: relative;
+    /* margin-left: -388px;*/
 }
 
 .inner-banner-content {
-    width: 976px;
-    height: 710px;
-    margin-top: -112px;
-    margin-right: -375px;
+    position: absolute;
+    width: 50%;
+    height: 688px;
+    left: 50%;
     background-color: #fff;
-    float: right;
     box-shadow: -2px -15px 67px #e1ebf2;
 }
 
@@ -241,14 +243,15 @@
 }
 
 .white-box-padding {
-    padding-left: 150px;
+    padding-left: 135px;
     padding-right: 100px;
 }
 
 .white-box-grid {
     display: grid;
     grid-template-columns: 200px 200px;
-    grid-gap: 60px;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
 }
 
 .large-text {
@@ -257,30 +260,25 @@
 
 .grid-text-padding {
     padding-top: 15px;
+    padding-bottom: 35px;
 }
 
-.features {
+.blog {
     width: 100%;
     background-color: #e1ebf2;
     height: 635px;
 }
 
-.view-align {
-    float: right;
-    margin-top: -25px;
-}
-
 .global-grid {
     display: grid;
     grid-template-columns: 345px 345px 345px;
-    grid-column-gap: 60px;
-    grid-row-gap: 100px;
+    grid-column-gap: 53px;
+    grid-row-gap: 70px;
     padding-top: 50px;
 }
 
 .product-text {
-    width: 375px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 100;
     line-height: 32px;
     padding: 25px 0px 15px 0px;
@@ -296,6 +294,17 @@
 
 .hl {
     border-bottom: 1px solid #bfc1c9;
-    width: 440px;
-    margin-top: -140px;
+    width: 428px;
+}
+
+.hl-footer {
+    width: 1157px;
+}
+
+.dotted-bg {
+    position: absolute;
+    margin: 257px 0px 0px -200px;
+    width: 300px;
+    height: 301px;
+    background-image: url(../images/dot-bg.png);
 }

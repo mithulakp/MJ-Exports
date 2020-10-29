@@ -1,5 +1,6 @@
 @import './variables.scss';
 body {
+    background-image: url(../images/bg.png);
     font-family: "DM Sans", sans-serif;
     color: $primary-color;
 }
@@ -28,12 +29,13 @@ body {
 
 .footer {
     background-color: #0b2954;
-    height: 470px;
+    width: 100%
 }
 
 .social-icon {
     padding-left: 80px;
     margin-top: -15px;
+    padding-bottom: 90px;
 }
 
 .social {
