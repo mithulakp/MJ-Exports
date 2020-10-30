@@ -24,6 +24,10 @@
     color: $secondary-color;
 }
 
+.light-blue {
+    background-color: #e1ebf2;
+}
+
 .banner {
     background: linear-gradient(to bottom right, #ff6b57, #f25c5e, #f1356c, #e74c6d);
     margin-top: -75px;
@@ -61,6 +65,8 @@
     color: $primary-color;
     font-size: 15px;
     font-weight: bold;
+    line-height: 8.14px;
+    letter-spacing: 1px;
     text-align: left;
     padding-left: 49px;
     text-transform: uppercase;
@@ -75,7 +81,7 @@
 }
 
 .top-margin {
-    margin-top: -12px;
+    margin-top: -25px;
 }
 
 .primary-button-arrow {
@@ -95,8 +101,8 @@
 }
 
 .button-arrow {
-    width: 149px;
-    padding-left: 115px;
+    width: 35px;
+    margin-left: 98px;
 }
 
 .slider {
@@ -141,19 +147,20 @@
 }
 
 .white-box {
-    width: 156px;
-    height: 140px;
+    width: 135px;
+    height: 117px;
     border-radius: 12px;
-    box-shadow: 0px 1px 20px lightgrey;
+    box-shadow: 0px 3px 20px -10px #d3d3d3;
     background-color: white;
 }
 
 .icon {
-    padding: 24px 0px 0px 35px;
+    padding: 24px 0px 0px 37px;
 }
 
 .icon-content {
     width: 163px;
+    margin-left: -15px;
     padding-top: 56px;
     color: $secondary-color;
     font-size: 18px;
@@ -161,6 +168,7 @@
 }
 
 .gradient-box {
+    width: 560px;
     background: linear-gradient(to bottom right, #ff6b57, #f55d61, #f1356c, #e74c6d);
     margin-top: 160px;
 }
@@ -223,7 +231,7 @@
     /* margin-left: -388px;*/
 }
 
-.inner-banner-content {
+.inner-number {
     position: absolute;
     width: 50%;
     height: 688px;
@@ -265,7 +273,6 @@
 
 .blog {
     width: 100%;
-    background-color: #e1ebf2;
     height: 635px;
 }
 
@@ -298,7 +305,8 @@
 }
 
 .hl-footer {
-    width: 1157px;
+    width: 1125px;
+    border-bottom: 1px solid #3a5274;
 }
 
 .dotted-bg {

@@ -28,9 +28,9 @@ body {
 }
 
 .footer {
-    background-color: #0b2954;
+    background-color: #001B4D;
     width: 100%;
-    height: 555px;
+    height: 625px;
 }
 
 .social-icon {
@@ -57,7 +57,8 @@ body {
 .ft-list {
     margin-left: -16px;
     li {
-        line-height: 20px;
+        line-height: 21.9px;
+        font-size: 14px;
     }
 }
 
@@ -70,5 +71,6 @@ body {
 .copy {
     padding-top: 120px;
     color: #a5abb7;
+    font-size: 12px;
     font-weight: 100;
 }
