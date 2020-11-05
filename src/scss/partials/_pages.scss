@@ -12,6 +12,10 @@
     padding-bottom: 90px;
 }
 
+.padding-top-sm {
+    padding-top: 50px;
+}
+
 .tac {
     text-align: center;
 }
@@ -53,22 +57,23 @@
 
 .introduction {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
     font-weight: lighter;
 }
 
 .btn {
     width: 312px;
-    background-color: $secondary-color;
-    height: 75px;
+    background-color: #10233d;
+    height: 71px;
     border: none;
-    color: $primary-color;
+    color: #f6f6f6;
     font-size: 15px;
     font-weight: bold;
     line-height: 8.14px;
     letter-spacing: 1px;
     text-align: left;
     padding-left: 49px;
+    padding-bottom: 9px;
     text-transform: uppercase;
     margin: 46px 0px 89px 0px;
     cursor: pointer;
@@ -114,7 +119,7 @@
 }
 
 .item {
-    width: 839px;
+    width: 836px;
     margin-left: -1px;
 }
 
