@@ -14,6 +14,10 @@ body {
     padding-top: 18px;
 }
 
+nav {
+    margin-top: -83px;
+}
+
 .navbar {
     float: right;
     width: 924px;
@@ -23,14 +27,14 @@ body {
     padding-top: 36px;
     li {
         display: inline-block;
-        padding: 11px;
+        padding: 22px 35px 0px 0px;
     }
 }
 
 .footer {
     background-color: #001B4D;
     width: 100%;
-    height: 625px;
+    float: left;
 }
 
 .social-icon {
@@ -73,4 +77,8 @@ body {
     color: #a5abb7;
     font-size: 12px;
     font-weight: 100;
+}
+
+.footer-spacing {
+    padding-left: 40px;
 }

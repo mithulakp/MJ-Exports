@@ -26,16 +26,18 @@ $('.slide').owlCarousel({
     margin: 10,
     nav: true,
     navText: [
-
         prevIcon, nextIcon
     ],
-
     pagination: false,
     dots: true,
+    dotsData: true,
     autoplay: 1000,
     autoplaySpeed: 1000,
     responsive: {
         0: {
+            items: 1
+        },
+        300: {
             items: 1
         },
         600: {
