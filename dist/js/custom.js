@@ -21,33 +21,7 @@ $('.banner-slide').owlCarousel({
         }
     }
 })
-$('.slide').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    navText: [
-        prevIcon, nextIcon
-    ],
-    pagination: false,
-    dots: true,
-    dotsData: true,
-    autoplay: 1000,
-    autoplaySpeed: 1000,
-    responsive: {
-        0: {
-            items: 1
-        },
-        300: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 1
-        }
-    }
-})
+
 
 $('.company-slider').owlCarousel({
     loop: true,
@@ -107,4 +81,15 @@ $(document).ready(function() {
 
     });
 
+});
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });

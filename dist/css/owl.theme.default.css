@@ -66,17 +66,15 @@
             background: #e74c6d;
         }
         
-        .slide.owl-theme .owl-nav {
-            color: #10233d;
-            font-size: 18px;
-        }
-        
         .owl-carousel .owl-nav button.owl-prev {
             margin-right: 250px;
             margin-top: 70px;
         }
-        
-        .slide.owl-theme .owl-dot {
+        /* 
+        .slide.owl-theme .owl-nav {
+            color: #10233d;
+            font-size: 18px;
+        }.slide.owl-theme .owl-dot {
             color: red;
         }
         
@@ -91,7 +89,7 @@
         
         .slide.owl-theme .owl-dots {
             margin-top: -31px;
-        }
+        }*/
         
         .company-slide .owl-theme .owl-dots {
             margin-left: 330px;

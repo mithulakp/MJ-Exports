@@ -124,7 +124,7 @@
     }
     
     .detailed-address {
-        width: 95px;
+        width: 200px;
     }
     
     .bold-text {
@@ -160,7 +160,7 @@
     }
     
     .location-btn {
-        width: 320px;
+        width: 290px;
         height: 65px;
         background-color: transparent;
         border: 1px solid #041c4a;
@@ -306,7 +306,7 @@
     }
     
     .why-us-blog {
-        height: 550px;
+        overflow: auto;
     }
     
     .read-btn-spacing {
@@ -315,13 +315,14 @@
     
     .why-us-img {
         position: relative;
-        left: 558px;
+        left: 556px;
         margin-top: -355px;
-        width: 980px;
+        width: 84%;
+        height: 544px;
     }
     
     .why-us-img-style {
-        margin-top: -190px;
+        margin-top: -547px;
     }
     
     .company {
@@ -385,45 +386,30 @@
         border-bottom: 1px solid #3f4b61;
         line-height: 26px;
     }
-    /*-------tab---------*/
     
-    .tabs {
-        height: auto;
-    }
-    
-    .tabs .tabs-list {
-        padding: 65px 134px 0px 390px;
+    .company-tab {
+        padding: 65px 150px 85px 390px;
         position: sticky;
         top: -50px;
         li {
-            width: 120px;
+            width: 125px;
             float: left;
-            margin: 0px;
-            margin-right: 2px;
-            padding: 10px 5px;
+            margin-right: 22px;
+            padding: 16px 11px;
             text-align: center;
-            border-radius: 3px;
+            border-radius: 5px;
             font-size: 14px;
+            a:hover {
+                width: 125px;
+                border-radius: 5px;
+                color: $primary-color !important;
+            }
         }
     }
     
-    .tabs .tabs-list li:hover {
-        cursor: pointer;
-    }
-    
-    .tabs .tab {
-        display: none;
-        padding: 70px 15px;
-        clear: both;
-    }
-    
-    .tabs .tabs-list li.active {
+    .company-tab li.active {
         background-color: #041c4a !important;
         color: $primary-color !important;
-    }
-    
-    .tab.active {
-        display: block;
     }
     
     .tab-text {
@@ -511,4 +497,39 @@
     .tailor-img-style {
         width: 644px;
         height: 432px;
+    }
+    
+    .blog-article {
+        padding: 238px 140px 0px 158px;
+    }
+    
+    .nav-controlls {
+        margin: 0 auto;
+        width: 516px;
+    }
+    
+    .controll-arrow {
+        display: inline-block;
+        padding: 79px 95px 2px 95px;
+    }
+    
+    .controll-text {
+        margin-left: 255px;
+    }
+    
+    .page-number {
+        margin: -25px auto;
+        width: 100px;
+    }
+    
+    .page-number-style {
+        background: linear-gradient(to bottom right, #ff6b57, #f25c5e, #f1356c, #e74c6d);
+        width: 30px;
+        height: 30px;
+        padding-top: 7px;
+        display: inline-block;
+    }
+    
+    .fa-icon {
+        padding-left: 6px;
     }
