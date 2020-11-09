@@ -13,129 +13,149 @@
         padding-left: 26px;
         padding-right: 26px;
     }
-    .navbar {
-        padding-left: 561px;
-        font-size: 13px;
-        li {
-            padding: 65px 0px 0px 9px;
-        }
-    }
-    .banner {
-        height: auto;
-    }
     .slider {
         width: 100%;
-        margin-top: 140px;
+        margin-top: 538px;
         height: 250px;
     }
     .item {
-        width: 376px;
+        width: 387px;
     }
     .banner-title {
-        width: 198px;
-        padding-top: 420px;
-        margin-left: 20px;
+        width: 379px;
+        padding-top: 133px;
+        text-align: center;
     }
     .primary-heading {
-        font-size: 50px;
-        line-height: 42px;
+        font-size: 58px;
+        line-height: 56px;
+        letter-spacing: 2px;
+    }
+    .seconday-heading {
+        font-size: 39px;
+        text-align: center;
     }
     .banner-content {
-        width: 305px;
-        margin-left: 20px;
+        width: 333px;
+        padding-left: 35px;
+        text-align: center;
+        padding-top: 29px;
+        margin-bottom: -17px;
     }
     .btn {
-        width: 265px;
-        padding-left: 20px;
-        margin: 46px 0px 89px 20px;
-        height: 60px;
+        width: 304px;
+        height: 55px;
+        font-size: 12px;
+        text-align: center;
+        padding-left: 85px;
+        padding-bottom: 15px;
+        margin: 25px 0px 89px 29px;
+    }
+    .mj-export-introduction {
+        padding-top: 202px;
+        width: 276px;
+        margin-left: 23px;
     }
     .intro-heading {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 29px;
     }
     .icons {
-        padding-left: 15px;
+        padding-left: 26px;
     }
-    .icon {
-        margin-top: 30px;
+    .icon-box {
+        margin-left: 16px;
     }
-    .icon-content {
-        padding-top: 35px;
+    .iconbox-spacing {
+        margin: 38px 0px 0px 94px;
     }
     .gradient-box {
         width: 100%;
-        margin-top: 70px;
+        margin-top: 74px;
+        height: 345px;
     }
     .grad-content-padding {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
     }
-    .seconday-heading {
-        font-size: 35px;
+    .introduction {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .our-servive-style {
+        margin: -32px 0px 0px -70px;
+    }
+    .right-arrow {
+        margin: -37px 0px 0px 156px;
+    }
+    .product-style {
+        width: 170px;
+        padding-top: 88px;
+        z-index: 0;
     }
     .product-images {
-        display: block;
-        padding-left: 20px;
+        grid-column-gap: 13px;
+        margin-top: -190px;
+        margin-left: 35px;
     }
     .product-alignment {
-        margin-top: 21px;
+        margin-top: -226px;
+    }
+    .prdct-img-style {
+        width: 133px;
+        margin-top: 20px;
+        margin-left: 10px;
     }
     .text-padding {
-        padding: 15px 73px 15px 9px;
-        text-align: left;
+        padding: 15px 61px 15px 65px;
     }
     .icon-grid {
-        padding-left: 42px;
+        padding-left: 0px;
+        width: 69px;
     }
-    .numbers {
-        height: auto;
+    .icon-grid-align {
+        margin-left: 54px;
+    }
+    .inner-banner {
+        right: 4%;
     }
     .inner-bnr-img1 {
-        width: 139%;
-        margin-top: -30px;
+        width: 375px;
+        margin-top: -16px;
     }
     .inner-number {
-        position: unset;
-        width: 100%;
+        width: 94%;
+        margin-top: -451px;
+        height: 620px;
+        left: 9px;
+        box-shadow: 0px 0px 0px #e1ebf2;
     }
     .white-box-padding {
-        padding-left: 9px;
+        padding-left: 33px;
     }
     .grad-box-intro-modify {
-        width: 366px;
-    }
-    .white-box-grid {
-        grid-template-columns: 134px 126px;
-        margin-left: 20px;
-        grid-column-gap: 25px;
-    }
-    .hl {
-        width: 340px;
-    }
-    .dotted-bg {
-        margin: 174px 0px 0px -200px;
-    }
-    .top-margin {
-        margin-top: 0px;
+        width: 252px;
     }
     .large-text {
-        font-size: 55px;
+        font-size: 45px;
     }
-    .blog {
-        height: auto;
+    .white-box-grid {
+        grid-template-columns: 109px 109px;
+        grid-column-gap: 32px;
+        grid-row-gap: 15px;
     }
-    .product-padding {
-        margin-left: 36px;
+    .hl {
+        display: none;
     }
-    .featured {
-        font-size: 28px;
+    .dotted-bg {
+        display: none;
     }
-    .view-all {
-        margin: -22px 10px 10px 256px;
+    .white-box-content {
+        margin-left: 25px;
     }
-    .pink-arrow {
-        margin: -37px 0px 0px 315px;
+    .primary-btn {
+        margin-left: -29px !important;
+        margin-top: 0px;
     }
-    
 }

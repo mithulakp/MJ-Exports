@@ -1,535 +1,566 @@
-    .light-blue-text {
-        color: #3f4b61;
-    }
-    
-    .normal-text {
-        font-weight: normal;
-    }
-    
-    .text-blue {
-        color: #e1ebf2;
-    }
-    
-    .white-bg {
-        background-color: white;
-    }
-    
-    .global-vertical-padding-sm {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-    
-    .global-padding-top-sm {
-        padding-top: 35px;
-    }
-    
-    .global-padding-bottom-sm {
-        padding-bottom: 35px;
-    }
-    
-    .detailed-blog-banner-main {
-        height: 604px;
-    }
-    
-    .blog-detail-title {
-        padding: 152px 140px 0px 158px;
-    }
-    
-    .blog-detail-banner-head {
-        letter-spacing: -1px;
-        font-size: 68px;
-    }
-    
-    .hl-blog {
-        width: 70px;
-        border-top: 3px solid white;
-        margin: 55px 7px 0px -20px;
-    }
-    
-    .sub-text {
-        display: inline-block;
-    }
-    
-    .blog-date {
-        padding: 50px 0px 0px 320px;
-        text-transform: uppercase;
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
-    .details {
-        width: 100%;
-        padding-top: 340px;
-    }
-    
-    .para {
-        width: 965px;
-        padding-left: 260px;
-        padding-right: 40px;
-        line-height: 27px;
-    }
-    
-    .why-cant {
-        font-size: 47px;
-        font-weight: normal;
-        line-height: 54px;
-    }
-    
-    .blog-image2 {
-        margin-left: -100px;
-    }
-    
-    .clients-title {
-        padding: 238px 140px 198px 158px;
-    }
-    
-    .client-intro {
-        font-size: 25px;
-        line-height: 32px;
-        font-weight: 100;
-    }
-    
-    .clients-introduction {
-        height: 630px;
-    }
-    
-    .testimonial {
-        width: 100%;
-        height: 595px;
-    }
-    
-    .testimonial-quote {
-        width: 306px;
-    }
-    
-    .testi-sub {
-        padding-top: 40px;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    
-    .testi-box {
-        width: 417px;
-        height: 396px;
-        margin-left: -47px;
-    }
-    
-    .get-in-touch {
-        padding: 230px 224px 146px 306px;
-    }
-    
-    .contact {
-        width: 100%;
-        float: left;
-    }
-    
-    .detailed-address {
-        width: 200px;
-    }
-    
-    .bold-text {
-        font-weight: bold;
-    }
-    
-    .cnt-tab {
-        margin: -15px 0px 0px -15px;
-    }
-    
-    .inputform {
-        width: 325px;
-        height: 70px;
-        background-color: #c1cfd9;
-        color: #3f4b61;
-        border: none;
-        padding-left: 57px;
-        font-size: 13pt;
-    }
-    
-    .text-area {
-        width: 670px;
-        height: 150px;
-        position: absolute;
-    }
-    
-    .btn-contact {
-        margin: 170px 0px 0px 4px;
-    }
-    
-    .cnt-arrow {
-        margin-left: 40px;
-    }
-    
-    .location-btn {
-        width: 290px;
-        height: 65px;
-        background-color: transparent;
-        border: 1px solid #041c4a;
-        color: $secondary-color;
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .location-icon {
-        padding-right: 23px;
-    }
-    
-    .offering-title {
-        padding: 205px 140px 143px 158px;
-    }
-    
-    .offering-bg {
-        opacity: 90%;
-    }
-    
-    .offering {
-        background-image: url(../images/offering-bg.jpg);
-        position: relative;
-        z-index: -1;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .sub-head {
-        width: 848px;
-    }
-    
-    .service {
-        width: 100%;
-        height: 700px;
-        background-color: #001B4D;
-    }
-    
-    .products-area {
-        width: 100%;
-        height: 630px;
-    }
-    
-    .product-align {
-        margin-left: -27px;
-    }
-    
-    .small-title {
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    
-    .service-icon-list {
-        li {
-            width: 277px;
-            padding-bottom: 30px;
-        }
-    }
-    
-    .icon-align {
-        margin: -67px 0px 0px 97px;
-    }
-    
-    .list-head {
-        padding-bottom: 20px;
-    }
-    
-    .testi-content {
-        width: 313px;
-    }
-    
-    .testi-content-align {
-        padding-left: 67px;
-    }
-    
-    .why-us {
-        background-image: url(../images/why-us.jpg);
-    }
-    
-    .why-us-sub-head {
-        width: 880px;
-        padding-left: 85px;
-        padding-right: 85px;
-    }
-    
-    .why-us-intro {
-        font-size: 31px;
-        line-height: 38px;
-    }
-    
-    .why-us-certification {
-        width: 100%;
-        overflow: auto;
-    }
-    
-    .why-us-certification-icon {
-        width: 886px;
-        padding-left: 270px;
-    }
-    
-    .why-us-icon-grid {
-        padding-left: 41px;
-    }
-    
-    .work-ethics-sub-text {
-        line-height: 26px;
-        width: 416px;
-    }
-    
-    .tailor {
-        width: 100%;
-        background-image: url(../images/tailor-bg.png);
-        background-position: center;
-        background-size: cover;
-        overflow: auto;
-    }
-    
-    .tailor-head {
-        width: 445px;
-        padding-top: 105px;
-    }
-    
-    .tailor-sub-text {
-        line-height: 26px;
-        margin-left: -32px;
-        width: 415px;
-    }
-    
-    .experience {
-        overflow: auto;
-        background-color: #001B4D;
-    }
-    
-    .exp-list-align {
-        width: 259px;
-        margin-left: 80px;
-    }
-    
-    .exp-list-content {
-        padding-bottom: 20px;
-        color: #b7bac3;
-    }
-    
-    .why-us-blog {
-        overflow: auto;
-    }
-    
-    .read-btn-spacing {
-        margin-top: -12px;
-    }
-    
-    .why-us-img {
-        position: relative;
-        left: 556px;
-        margin-top: -355px;
-        width: 84%;
-        height: 544px;
-    }
-    
-    .why-us-img-style {
-        margin-top: -547px;
-    }
-    
-    .company {
-        background-image: url(../images/company.jpg);
-    }
-    
-    .mj-exports-team {
-        overflow: auto;
-        background-color: #001B4D;
-    }
-    
-    .designation {
-        font-size: 14px;
-        padding-top: 13px;
-    }
-    
-    .mj-exports-vision {
-        width: 100%;
-        overflow: auto;
-        background: linear-gradient(to bottom right, #ff6b57, #f25c5e, #f1356c, #e74c6d);
-    }
-    
-    .mj-exports-strength {
-        overflow: auto;
-    }
-    
-    .our-strength-text {
-        font-size: 71px;
-        line-height: 83px;
-    }
-    
-    .our-strength-sub-text {
-        width: 400px;
-    }
-    
-    .strength-accordion {
-        padding-left: 105px;
-    }
-    
-    .accordion {
-        cursor: pointer;
-    }
-    
-    .accordion:after {
-        content: '\+';
-        font-size: 50px;
-        float: right;
-        width: 151px;
-    }
-    
-    .accordion.is-open:after {
-        content: '\-';
-        font-size: 50px;
-    }
-    
-    .accordion-content {
-        max-height: 0;
-        width: 445px;
-        overflow: hidden;
-        transition: max-height 0.2s ease-in-out;
-        border-bottom: 1px solid #3f4b61;
-        line-height: 26px;
-    }
-    
-    .company-tab {
-        padding: 65px 150px 85px 390px;
-        position: sticky;
-        top: -50px;
-        li {
-            width: 125px;
-            float: left;
-            margin-right: 22px;
-            padding: 16px 11px;
-            text-align: center;
-            border-radius: 5px;
-            font-size: 14px;
-            a:hover {
-                width: 125px;
-                border-radius: 5px;
-                color: $primary-color !important;
-            }
-        }
-    }
-    
-    .company-tab li.active {
-        background-color: #041c4a !important;
-        color: $primary-color !important;
-    }
-    
-    .tab-text {
-        line-height: 89px;
-        letter-spacing: 2px;
-        font-size: 75px;
-        line-height: 88px;
-    }
-    
-    .blog-slider {
-        height: 1200px;
-    }
-    
-    .grid-border-hl {
-        height: 120px;
-        border-bottom: 1px solid #d9dbdf;
-    }
-    
-    .right-border-vl {
-        width: 221px;
-        border-right: 1px solid #d9dbdf;
-        height: 258px;
-    }
-    
-    .service-list-content {
-        padding-bottom: 30px;
-    }
-    
-    .hl-service {
-        margin-left: -93px;
-        width: 676px;
-    }
-    
-    .history-head {
-        width: 167px;
-    }
-    
-    .history-sub {
-        width: 343px;
-    }
-    
-    .company-slide {
-        padding-left: 200px;
-    }
-    
-    .blog-tablink {
-        display: inline-block;
-        font-size: 16px;
-        padding-left: 33px;
-    }
-    
-    .blog-tab {
-        margin: 176px 0px 0px 389px;
-    }
-    
-    .blog-tablink::after {
-        content: '';
-        width: 0;
-        height: 4px;
-        transition: .3s;
-        display: block;
-        background: $secondary-color;
-    }
-    
-    .blog-tablink:hover::after {
-        width: 100%;
-        color: $primary-color;
-        transition: width .3s;
-    }
-    
-    .prev-btn {
-        margin-right: 50px;
-        width: 33px;
-    }
-    
-    .next-btn {
-        margin-left: 50px;
-        width: 33px;
-    }
-    
-    .getin-contact {
-        margin-top: -34px;
-    }
-    
-    .tailor-img-style {
-        width: 644px;
-        height: 432px;
-    }
-    
-    .blog-article {
-        padding: 238px 140px 0px 158px;
-    }
-    
-    .nav-controlls {
-        margin: 0 auto;
-        width: 516px;
-    }
-    
-    .controll-arrow {
-        display: inline-block;
-        padding: 79px 95px 2px 95px;
-    }
-    
-    .controll-text {
-        margin-left: 255px;
-    }
-    
-    .page-number {
-        margin: -25px auto;
-        width: 100px;
-    }
-    
-    .page-number-style {
-        background: linear-gradient(to bottom right, #ff6b57, #f25c5e, #f1356c, #e74c6d);
-        width: 30px;
-        height: 30px;
-        padding-top: 7px;
-        display: inline-block;
-    }
-    
-    .fa-icon {
-        padding-left: 6px;
-    }
+  a:hover {
+      text-decoration: none;
+  }
+  
+  .light-blue-text {
+      color: #3f4b61;
+  }
+  
+  .normal-text {
+      font-weight: normal;
+  }
+  
+  .text-blue {
+      color: #e1ebf2;
+  }
+  
+  .white-bg {
+      background-color: white;
+  }
+  
+  .global-vertical-padding-sm {
+      padding-top: 35px;
+      padding-bottom: 35px;
+  }
+  
+  .global-padding-top-sm {
+      padding-top: 35px;
+  }
+  
+  .global-padding-bottom-sm {
+      padding-bottom: 35px;
+  }
+  
+  .detailed-blog-banner-main {
+      height: 604px;
+  }
+  
+  .blog-detail-title {
+      padding: 152px 140px 0px 158px;
+  }
+  
+  .blog-detail-banner-head {
+      letter-spacing: -1px;
+      font-size: 68px;
+  }
+  
+  .hl-blog {
+      width: 70px;
+      border-top: 3px solid white;
+      margin: 55px 7px 0px -20px;
+  }
+  
+  .sub-text {
+      display: inline-block;
+  }
+  
+  .blog-date {
+      padding: 50px 0px 0px 320px;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
+  }
+  
+  .details {
+      width: 100%;
+      padding-top: 340px;
+  }
+  
+  .para {
+      width: 965px;
+      padding-left: 260px;
+      padding-right: 40px;
+      line-height: 27px;
+  }
+  
+  .why-cant {
+      font-size: 47px;
+      font-weight: normal;
+      line-height: 54px;
+  }
+  
+  .blog-image2 {
+      margin-left: -100px;
+  }
+  
+  .clients-title {
+      padding: 238px 140px 198px 158px;
+  }
+  
+  .client-intro {
+      font-size: 25px;
+      line-height: 32px;
+      font-weight: 100;
+  }
+  
+  .clients-introduction {
+      height: 630px;
+  }
+  
+  .testimonial {
+      width: 100%;
+      height: 595px;
+  }
+  
+  .testimonial-quote {
+      width: 306px;
+  }
+  
+  .testi-sub {
+      padding-top: 40px;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  
+  .testi-box {
+      width: 417px;
+      height: 396px;
+      margin-left: -47px;
+  }
+  
+  .get-in-touch {
+      padding: 230px 224px 146px 306px;
+  }
+  
+  .contact {
+      width: 100%;
+      float: left;
+  }
+  
+  .detailed-address {
+      width: 200px;
+  }
+  
+  .bold-text {
+      font-weight: bold;
+  }
+  
+  .cnt-tab {
+      margin: -15px 0px 0px -15px;
+  }
+  
+  .inputform {
+      width: 325px;
+      height: 70px;
+      background-color: #c1cfd9;
+      color: #3f4b61;
+      border: none;
+      padding-left: 57px;
+      font-size: 13pt;
+  }
+  
+  .text-area {
+      width: 670px;
+      height: 150px;
+      position: absolute;
+  }
+  
+  .btn-contact {
+      margin: 170px 0px 0px 4px;
+  }
+  
+  .cnt-arrow {
+      margin-left: 40px;
+  }
+  
+  .location-btn {
+      width: 290px;
+      height: 65px;
+      background-color: transparent;
+      border: 1px solid #041c4a;
+      color: $secondary-color;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  
+  .location-icon {
+      padding-right: 23px;
+  }
+  
+  .offering-title {
+      padding: 205px 140px 143px 158px;
+  }
+  
+  .offering-bg {
+      opacity: 90%;
+  }
+  
+  .offering {
+      background-image: url(../images/offering-bg.jpg);
+      position: relative;
+      z-index: -1;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  .sub-head {
+      width: 848px;
+  }
+  
+  .service {
+      width: 100%;
+      height: 700px;
+      background-color: #001B4D;
+  }
+  
+  .products-area {
+      width: 100%;
+      height: 630px;
+  }
+  
+  .product-align {
+      margin-left: -27px;
+  }
+  
+  .small-title {
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  
+  .service-icon-list {
+      li {
+          width: 277px;
+          padding-bottom: 30px;
+      }
+  }
+  
+  .icon-align {
+      margin: -67px 0px 0px 97px;
+  }
+  
+  .list-head {
+      padding-bottom: 20px;
+  }
+  
+  .testi-content {
+      width: 313px;
+  }
+  
+  .testi-content-align {
+      padding-left: 67px;
+  }
+  
+  .why-us {
+      background-image: url(../images/why-us.jpg);
+  }
+  
+  .why-us-sub-head {
+      width: 880px;
+      padding-left: 85px;
+      padding-right: 85px;
+  }
+  
+  .why-us-intro {
+      font-size: 31px;
+      line-height: 38px;
+  }
+  
+  .why-us-certification {
+      width: 100%;
+      overflow: auto;
+  }
+  
+  .why-us-certification-icon {
+      width: 886px;
+      padding-left: 270px;
+  }
+  
+  .why-us-icon-grid {
+      padding-left: 41px;
+  }
+  
+  .work-ethics-sub-text {
+      line-height: 26px;
+      width: 416px;
+  }
+  
+  .tailor {
+      width: 100%;
+      background-image: url(../images/tailor-bg.png);
+      background-position: center;
+      background-size: cover;
+      overflow: auto;
+  }
+  
+  .tailor-head {
+      width: 445px;
+      padding-top: 105px;
+  }
+  
+  .tailor-sub-text {
+      line-height: 26px;
+      margin-left: -32px;
+      width: 415px;
+  }
+  
+  .experience {
+      overflow: auto;
+      background-color: #001B4D;
+  }
+  
+  .exp-list-align {
+      width: 259px;
+      margin-left: 80px;
+  }
+  
+  .exp-list-content {
+      padding-bottom: 20px;
+      color: #b7bac3;
+  }
+  
+  .why-us-blog {
+      overflow: auto;
+  }
+  
+  .read-btn-spacing {
+      margin-top: -12px;
+  }
+  
+  .why-us-img {
+      position: relative;
+      left: 556px;
+      margin-top: -355px;
+      width: 84%;
+      height: 544px;
+  }
+  
+  .why-us-img-style {
+      margin-top: -547px;
+  }
+  
+  .company {
+      background-image: url(../images/company.jpg);
+  }
+  
+  .mj-exports-team {
+      overflow: auto;
+      background-color: #001B4D;
+  }
+  
+  .designation {
+      font-size: 14px;
+      padding-top: 13px;
+  }
+  
+  .mj-exports-vision {
+      width: 100%;
+      overflow: auto;
+      background: linear-gradient(to bottom right, #fd5f52, #fd575c, #fd4368, #f83c6c);
+  }
+  
+  .mj-exports-strength {
+      overflow: auto;
+  }
+  
+  .our-strength-text {
+      font-size: 71px;
+      line-height: 83px;
+  }
+  
+  .our-strength-sub-text {
+      width: 400px;
+  }
+  
+  .strength-accordion {
+      padding-left: 105px;
+  }
+  
+  .accordion {
+      cursor: pointer;
+  }
+  
+  .accordion:after {
+      content: '\+';
+      font-size: 50px;
+      float: right;
+      width: 151px;
+  }
+  
+  .accordion.is-open:after {
+      content: '\-';
+      font-size: 50px;
+  }
+  
+  .accordion-content {
+      max-height: 0;
+      width: 445px;
+      overflow: hidden;
+      transition: max-height 0.2s ease-in-out;
+      border-bottom: 1px solid #3f4b61;
+      line-height: 26px;
+  }
+  
+  .company-tab {
+      padding: 65px 150px 85px 390px;
+      position: sticky;
+      top: -50px;
+      li {
+          width: 125px;
+          float: left;
+          margin-right: 22px;
+          padding: 16px 11px;
+          text-align: center;
+          border-radius: 5px;
+          font-size: 14px;
+      }
+  }
+  
+  .company-tab li.active {
+      background-color: #041c4a !important;
+      color: $primary-color;
+      a:hover {
+          color: $primary-color;
+      }
+  }
+  
+  .tab-text {
+      line-height: 89px;
+      letter-spacing: 2px;
+      font-size: 75px;
+      line-height: 88px;
+  }
+  
+  .blog-slider {
+      height: 1200px;
+  }
+  
+  .grid-border-hl {
+      height: 120px;
+      border-bottom: 1px solid #d9dbdf;
+  }
+  
+  .right-border-vl {
+      width: 221px;
+      border-right: 1px solid #d9dbdf;
+      height: 258px;
+  }
+  
+  .service-list-content {
+      padding-bottom: 30px;
+  }
+  
+  .hl-service {
+      margin-left: -93px;
+      width: 676px;
+  }
+  
+  .history-head {
+      width: 167px;
+  }
+  
+  .history-sub {
+      width: 343px;
+  }
+  
+  .company-slide {
+      padding-left: 200px;
+  }
+  
+  .blog-tablink {
+      display: inline-block;
+      font-size: 16px;
+      padding-left: 45px;
+      color: white;
+      a:hover {
+          color: $primary-color;
+      }
+  }
+  
+  .blog-tab {
+      margin: 176px 0px 0px 337px;
+  }
+  
+  .blog-tablink::after {
+      content: '';
+      width: 0;
+      margin-top: 15px;
+      height: 4px;
+      transition: .3s;
+      display: block;
+      background: $secondary-color;
+  }
+  
+  .blog-tablink:hover::after {
+      width: 100%;
+      color: $primary-color;
+      transition: width .3s;
+  }
+  
+  .prev-btn {
+      margin-right: 50px;
+      width: 33px;
+  }
+  
+  .next-btn {
+      margin-left: 50px;
+      width: 33px;
+  }
+  
+  .getin-contact {
+      margin-top: -34px;
+  }
+  
+  .tailor-img-style {
+      width: 644px;
+      height: 432px;
+  }
+  
+  .blog-article {
+      padding: 238px 140px 0px 158px;
+  }
+  
+  .nav-controlls {
+      margin: 0 auto;
+      width: 516px;
+  }
+  
+  .controll-arrow {
+      display: inline-block;
+      padding: 79px 95px 2px 95px;
+  }
+  
+  .controll-text {
+      margin-left: 255px;
+  }
+  
+  .page-number {
+      margin: -25px auto;
+      width: 100px;
+  }
+  
+  .page-number-style {
+      background: linear-gradient(to bottom right, #fd5f52, #fd575c, #fd4368, #f83c6c);
+      width: 30px;
+      height: 30px;
+      padding-top: 7px;
+      display: inline-block;
+  }
+  
+  .fa-icon {
+      padding-left: 6px;
+  }
+  
+  .exp-grad-box {
+      height: 278px;
+      width: 276px;
+      margin: 133px 0px 0px 93px;
+      position: absolute;
+      background: linear-gradient(to bottom right, #fd5f52, #fd575c, #fd4368, #f83c6c);
+  }
+  
+  .work-grad-box {
+      margin-top: 92px;
+      width: 210px;
+      margin-left: -15px;
+  }
+  
+  .testi-grad {
+      margin: 131px 0px 0px 328px;
+      width: 247px;
+      height: 297px;
+  }
+  
+  .testi-img {
+      margin-left: 43px;
+  }
