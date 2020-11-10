@@ -92,11 +92,15 @@
         }*/
         
         .company-slide .owl-theme .owl-dots {
-            margin-left: 330px;
-            margin-top: -280px !important;
+            margin-left: 402px;
+            margin-top: -270px !important;
         }
         
         .company-slide .owl-theme .owl-dot {
             display: block;
             margin-bottom: 44px;
+        }
+        
+        .owl-carousel .company-slider {
+            margin-left: -50px !important;
         }

@@ -1,161 +1,218 @@
-@media only screen and (max-width: 375px) and (min-width: 0) {
-    .global-vertical-padding {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    .global-padding-top {
-        padding-top: 40px;
-    }
-    .global-padding-bottom {
-        padding-bottom: 40px;
-    }
-    .intro {
-        padding-left: 26px;
-        padding-right: 26px;
-    }
-    .slider {
-        width: 100%;
-        margin-top: 538px;
-        height: 250px;
-    }
-    .item {
-        width: 387px;
-    }
-    .banner-title {
-        width: 379px;
-        padding-top: 133px;
-        text-align: center;
-    }
-    .primary-heading {
-        font-size: 58px;
-        line-height: 56px;
-        letter-spacing: 2px;
-    }
-    .seconday-heading {
-        font-size: 39px;
-        text-align: center;
-    }
-    .banner-content {
-        width: 333px;
-        padding-left: 35px;
-        text-align: center;
-        padding-top: 29px;
-        margin-bottom: -17px;
-    }
-    .btn {
-        width: 304px;
-        height: 55px;
-        font-size: 12px;
-        text-align: center;
-        padding-left: 85px;
-        padding-bottom: 15px;
-        margin: 25px 0px 89px 29px;
-    }
-    .mj-export-introduction {
-        padding-top: 202px;
-        width: 276px;
-        margin-left: 23px;
-    }
-    .intro-heading {
-        font-size: 20px;
-        line-height: 29px;
-    }
-    .icons {
-        padding-left: 26px;
-    }
-    .icon-box {
-        margin-left: 16px;
-    }
-    .iconbox-spacing {
-        margin: 38px 0px 0px 94px;
-    }
-    .gradient-box {
-        width: 100%;
-        margin-top: 74px;
-        height: 345px;
-    }
-    .grad-content-padding {
-        padding-left: 0px;
-        padding-right: 0px;
-        text-align: center;
-    }
-    .introduction {
-        font-size: 16px;
-        line-height: 21px;
-    }
-    .our-servive-style {
-        margin: -32px 0px 0px -70px;
-    }
-    .right-arrow {
-        margin: -37px 0px 0px 156px;
-    }
-    .product-style {
-        width: 170px;
-        padding-top: 88px;
-        z-index: 0;
-    }
-    .product-images {
-        grid-column-gap: 13px;
-        margin-top: -190px;
-        margin-left: 35px;
-    }
-    .product-alignment {
-        margin-top: -226px;
-    }
-    .prdct-img-style {
-        width: 133px;
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-    .text-padding {
-        padding: 15px 61px 15px 65px;
-    }
-    .icon-grid {
-        padding-left: 0px;
-        width: 69px;
-    }
-    .icon-grid-align {
-        margin-left: 54px;
-    }
-    .inner-banner {
-        right: 4%;
-    }
-    .inner-bnr-img1 {
-        width: 375px;
-        margin-top: -16px;
-    }
-    .inner-number {
-        width: 94%;
-        margin-top: -451px;
-        height: 620px;
-        left: 9px;
-        box-shadow: 0px 0px 0px #e1ebf2;
-    }
-    .white-box-padding {
-        padding-left: 33px;
-    }
-    .grad-box-intro-modify {
-        width: 252px;
-    }
-    .large-text {
-        font-size: 45px;
-    }
-    .white-box-grid {
-        grid-template-columns: 109px 109px;
-        grid-column-gap: 32px;
-        grid-row-gap: 15px;
-    }
-    .hl {
-        display: none;
-    }
-    .dotted-bg {
-        display: none;
-    }
-    .white-box-content {
-        margin-left: 25px;
-    }
-    .primary-btn {
-        margin-left: -29px !important;
-        margin-top: 0px;
-    }
-}
+        @media only screen and (max-width: 375px) and (min-width: 0) {
+            .global-vertical-padding {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            .global-padding-top {
+                padding-top: 40px;
+            }
+            .global-padding-bottom {
+                padding-bottom: 40px;
+            }
+            .logo {
+                padding: 18px 0px 80px 15px;
+            }
+            .intro {
+                padding-left: 26px;
+                padding-right: 26px;
+            }
+            .slider {
+                width: 100%;
+                margin-top: 538px;
+                height: 250px;
+            }
+            .item {
+                width: 387px;
+            }
+            .banner-title {
+                width: 369px;
+                padding-top: 133px;
+                text-align: center;
+            }
+            .primary-heading {
+                font-size: 58px;
+                line-height: 56px;
+                letter-spacing: 2px;
+            }
+            .seconday-heading {
+                font-size: 39px;
+                text-align: center;
+            }
+            .banner-content {
+                width: 333px;
+                padding-left: 35px;
+                text-align: center;
+                padding-top: 29px;
+                margin-bottom: -17px;
+            }
+            .btn {
+                width: 304px;
+                height: 55px;
+                font-size: 12px;
+                text-align: center;
+                padding-left: 85px;
+                padding-bottom: 15px;
+                margin: 25px 0px 89px 29px;
+            }
+            .mj-export-introduction {
+                padding-top: 202px;
+                width: 276px;
+                margin-left: 23px;
+            }
+            .intro-heading {
+                font-size: 20px;
+                line-height: 29px;
+            }
+            .icons {
+                padding-left: 26px;
+            }
+            .icon-box {
+                margin-left: 16px;
+            }
+            .iconbox-spacing {
+                margin: 38px 0px 0px 94px;
+            }
+            .gradient-box {
+                width: 100%;
+                margin-top: 74px;
+                height: 345px;
+            }
+            .grad-content-padding {
+                padding-left: 0px;
+                padding-right: 0px;
+                text-align: center;
+            }
+            .introduction {
+                font-size: 16px;
+                line-height: 21px;
+            }
+            .our-servive-style {
+                margin: -32px 0px 0px -70px;
+            }
+            .right-arrow {
+                margin: -37px 0px 0px 156px;
+            }
+            .product-style {
+                width: 170px;
+                padding-top: 88px;
+                z-index: 0;
+            }
+            .product-images {
+                grid-column-gap: 13px;
+                margin-top: -190px;
+                margin-left: 35px;
+            }
+            .product-alignment {
+                margin-top: -226px;
+            }
+            .prdct-img-style {
+                width: 133px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            .text-padding {
+                padding: 15px 61px 15px 65px;
+            }
+            .icon-grid {
+                padding-left: 0px;
+                width: 69px;
+            }
+            .icon-grid-align {
+                margin-left: 54px;
+            }
+            .inner-banner {
+                right: 4%;
+            }
+            .inner-bnr-img1 {
+                width: 375px;
+                margin-top: -16px;
+            }
+            .inner-number {
+                width: 94%;
+                margin-top: -451px;
+                height: 620px;
+                left: 10px;
+                box-shadow: 0px 0px 0px #e1ebf2;
+            }
+            .white-box-padding {
+                padding-left: 33px;
+            }
+            .grad-box-intro-modify {
+                width: 185px;
+            }
+            .large-text {
+                font-size: 45px;
+            }
+            .white-box-grid {
+                grid-template-columns: 109px 109px;
+                grid-column-gap: 32px;
+                grid-row-gap: 15px;
+                position: absolute;
+            }
+            .hl {
+                display: none;
+            }
+            .dotted-bg {
+                display: none;
+            }
+            .white-box-content {
+                margin-left: 25px;
+            }
+            .primary-btn {
+                margin-left: -29px !important;
+                margin-top: 0px;
+            }
+            label {
+                display: block;
+                cursor: pointer;
+            }
+            .navbar {
+                text-align: center;
+                width: 100%;
+                display: none;
+            }
+            .navbar li {
+                display: block;
+                width: 100%;
+            }
+            #toggle:checked+.navbar {
+                display: block;
+                width: 375px;
+                margin: 3px 55px 10px -215px;
+                padding: 74px 0px 55px 0px;
+                background: linear-gradient(to bottom right, #fd5f52, #fd575c, #fd4368, #f83c6c);
+            }
+            .footer-spacing {
+                padding-left: 8px;
+                padding-bottom: 25px;
+                margin-top: -66px;
+            }
+            .hl-footer {
+                width: 306px;
+                margin-top: 17px;
+            }
+            .hl-footer2 {
+                border-bottom: 1px solid #3a5274;
+                width: 306px;
+                margin-top: 19px;
+            }
+            .ft-btn {
+                margin-left: 0px !important;
+                margin-top: 23px;
+            }
+            .address-head {
+                margin: -176px 0px 0px 158px;
+            }
+            .copy {
+                padding: 50px 0px 40px 18px;
+            }
+            .blog-slider {
+                overflow: hidden;
+                height: auto;
+            }
+            .view {
+                position: absolute;
+                margin-left: 17px;
+                padding-top: 1151px;
+            }
+        }

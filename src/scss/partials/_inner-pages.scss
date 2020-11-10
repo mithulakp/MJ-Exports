@@ -124,7 +124,7 @@
   
   .contact {
       width: 100%;
-      float: left;
+      overflow: auto;
   }
   
   .detailed-address {
@@ -447,10 +447,13 @@
   
   .history-head {
       width: 167px;
+      padding-top: 23px;
+      margin-left: 75px;
   }
   
   .history-sub {
       width: 343px;
+      margin-left: 75px;
   }
   
   .company-slide {
@@ -563,4 +566,23 @@
   
   .testi-img {
       margin-left: 43px;
+  }
+  
+  .tabs {
+      background: linear-gradient(to bottom, #d9ebf7, #e9f0f5, #fff);
+  }
+  
+  .img-border {
+      width: 319px;
+      border: 10px solid #fff;
+      padding: 0px;
+      margin: 16px 0px 0px 20px;
+      transform: rotate(4deg);
+      box-shadow: 3px 1px 24px 0px #d6e5ef;
+  }
+  
+  .company-slide {
+      margin-left: -64px !important;
+      height: 380px;
+      width: 1228px;
   }

@@ -38,6 +38,7 @@ img {
 
 .banner {
     background: linear-gradient(to bottom right, #fd5d54, #f25c5e, #f1356c, #e74c6d);
+    margin-top: -110px;
 }
 
 .banner-title {
@@ -281,7 +282,7 @@ img {
 
 .blog {
     width: 100%;
-    float: left;
+    overflow: auto;
 }
 
 .global-grid {

@@ -93,3 +93,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
+
+jQuery(document).ready(function() {
+    jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+
+        if (scroll >= 100) {
+            jQuery("header").addClass("actve");
+        } else {
+            jQuery("header").removeClass("actve");
+        }
+    });
+});

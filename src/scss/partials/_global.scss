@@ -11,7 +11,11 @@ body {
 }
 
 .header {
-    z-index: 20;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    height: 93px;
+    background-color: transparent;
 }
 
 .logo {
@@ -20,7 +24,7 @@ body {
 }
 
 nav {
-    margin: 35px 0px 0px 216px;
+    margin: 29px 0px 0px 216px;
     position: fixed;
 }
 
@@ -78,7 +82,7 @@ nav {
 }
 
 .copy {
-    padding-top: 120px;
+    padding-top: 136px;
     color: #a5abb7;
     font-size: 12px;
     font-weight: 100;
@@ -86,4 +90,20 @@ nav {
 
 .footer-spacing {
     padding-left: 40px;
+}
+
+label {
+    margin: -7px 0px 0 72px;
+    font-size: 30px;
+    line-height: 60px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.actve {
+    background-color: white;
+    color: $secondary-color;
 }
